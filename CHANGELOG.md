@@ -15,6 +15,7 @@ Undocumented APIs should be considered internal and may change without warning.
 
 ### Fixed
 
+-   `VisualElement`: `sortNodePosition` no longer throws when a sibling in `enteringChildren` hasn't mounted yet (Firefox: `Node.compareDocumentPosition: Argument 1 is not an object`).
 -   `useDragControls`: Fixed `snapToCursor` origin drift on repeated calls.
 -   `drag`: Improved `pointerend` timing.
 -   `spring`: Check invalid spring values before applying.

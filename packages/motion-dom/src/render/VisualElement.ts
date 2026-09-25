@@ -612,6 +612,7 @@ export abstract class VisualElement<
          */
         if (
             !this.current ||
+            !other.current ||
             !this.sortInstanceNodePosition ||
             this.type !== other.type
         ) {
